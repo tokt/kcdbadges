@@ -1,2 +1,3 @@
-# kcdbadges
-KCD badges
+There are 2 files: 
+- gener.py will generate badges (stickers) from CSV file. Each badge will contain first name, QR code and last name. QR code will have attendee information in vCARD format: first + last name + email + company info (if available). QR code can be scanned by any smartphone or an app.
+- avery.py will take all files from "stickers" folder and generate a PDF file for printing. The resulting file is supposed to be printed on Avery 8870 template (3.5x2 inches, business card sized stickers on US Legal paper size). Please, make sure to disable page margins, autoscaling and other printer settings. 
